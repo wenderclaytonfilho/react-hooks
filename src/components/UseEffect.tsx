@@ -31,11 +31,11 @@ function UseEffect(){
                 <button onClick={() => changeResourceType("comments")}>Comments</button>
                 <button onClick={() => changeResourceType("todos")}>Todos</button>
             </div>
-            <div>
+            {/* <div>
             {items.map((item) => (
                 <p>{item.id}</p>
             ))}
-            </div>
+            </div> */}
             <a href='https://pt-br.react.dev/reference/react/useEffect'>Documentação</a>
         </div>
 
